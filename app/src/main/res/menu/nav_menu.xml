@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_calculate_age"
+        android:icon="@drawable/age_icon"
+        android:title="Age" />
+    <item
+        android:id="@+id/nav_calculate_area"
+        android:icon="@drawable/area_icon"
+        android:title="Area" />
+    <item
+        android:id="@+id/nav_calculate_bmi"
+        android:icon="@drawable/bmi_icon"
+        android:title="BMI" />
+    <item
+        android:id="@+id/nav_calculate_currency"
+        android:icon="@drawable/currency_icon"
+        android:title="Currency" />
+    <item
+        android:id="@+id/nav_calculate_data"
+        android:icon="@drawable/data_icon"
+        android:title="Data" />
+    <item
+        android:id="@+id/nav_calculate_length"
+        android:icon="@drawable/length_icon"
+        android:title="Length" />
+    <item
+        android:id="@+id/nav_calculate_numeral_system"
+        android:icon="@drawable/numeral_system_icon"
+        android:title="Numeral System" />
+    <item
+        android:id="@+id/nav_calculate_speed"
+        android:icon="@drawable/speed_icon"
+        android:title="Speed" />
+    <item
+         android:id="@+id/nav_calculate_temperature"
+         android:icon="@drawable/temperature_icon"
+         android:title="Temperature" />
+    <item
+        android:id="@+id/nav_about_us"
+        android:icon="@drawable/about_us_icon"
+        android:title="About Us" />
+
+    </group>
+</menu>

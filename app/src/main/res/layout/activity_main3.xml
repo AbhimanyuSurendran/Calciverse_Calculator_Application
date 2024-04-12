@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/calculator_unclicked"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="calculator_unclicked"
+                    app:srcCompat="@drawable/calculator_unclicked" />
+
+                <ImageView
+                    android:id="@+id/additional_clicked"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:onClick="additional_clicked"
+                    app:srcCompat="@drawable/additional_clicked" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:layout_gravity="center"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/age_icon"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="age_icon"
+                app:srcCompat="@drawable/age_icon" />
+
+            <ImageView
+                android:id="@+id/area_icon"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="area_icon"
+                app:srcCompat="@drawable/area_icon" />
+
+            <ImageView
+                android:id="@+id/bmi_icon"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="bmi_icon"
+                app:srcCompat="@drawable/bmi_icon" />
+
+            <ImageView
+                android:id="@+id/currency_icon"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="currency_icon"
+                app:srcCompat="@drawable/currency_icon" />
+
+            <ImageView
+                android:id="@+id/data_icon"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="data_icon"
+                app:srcCompat="@drawable/data_icon" />
+
+            <ImageView
+                android:id="@+id/length_icon"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="10dp"
+                android:onClick="length_icon"
+                app:srcCompat="@drawable/length_icon" />
+
+            <ImageView
+                android:id="@+id/numeral_system_icon"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:onClick="numeral_system_icon"
+                app:srcCompat="@drawable/numeral_system_icon" />
+
+            <ImageView
+                android:id="@+id/speed_icon"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:onClick="speed_icon"
+                app:srcCompat="@drawable/speed_icon" />
+
+            <ImageView
+                android:id="@+id/temperature_icon"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:onClick="temperature_icon"
+                app:srcCompat="@drawable/temperature_icon" />
+        </GridLayout>
+    </LinearLayout>
+
+</LinearLayout>
